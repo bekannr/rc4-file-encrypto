@@ -115,7 +115,7 @@ bool decryptFile(const string& filename, const string& key) {
 
 int main() {
     string filename = "file.txt";
-    string key = "my_secret_password";   // change if needed
+    string key = "my_secret_password";  
 
     cout << "RC4 File Encryptor\n";
     cout << "File: " << filename << "\n";
